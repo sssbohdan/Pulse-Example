@@ -57,12 +57,6 @@ final class PulseView: UIView {
         }
     }
     
-    private func configure() {
-        let layer = CALayer()
-        layer.frame = frame
-        layer.cornerRadius = frame.width / 2
-    }
-    
     private func pulse() {
         let layer = CALayer()
         layer.frame = CGRect(origin: .zero, size: frame.size)
